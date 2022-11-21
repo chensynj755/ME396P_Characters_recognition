@@ -1,5 +1,4 @@
 # ME396P_Characters_recognition
-See https://github.com/ageitgey/face_recognition for more information.
 
 Input and output videos are Movie.mp4 and Characters_recognition.avi on the Box, respectively. The input images are uploaded in the repository. If .avi file cannot be opened on macOS, please use MKPlayer for viewing. 
 ## Installation
@@ -34,3 +33,4 @@ Alternatively, you can try this library with [Docker](https://www.docker.com/), 
 If you are having trouble with installation, you can also try out a
 [pre-configured VM](https://medium.com/@ageitgey/try-deep-learning-in-python-now-with-a-fully-pre-configured-vm-1d97d4c3e9b).
 
+See https://github.com/ageitgey/face_recognition for more information.
