@@ -36,6 +36,10 @@ See https://github.com/ageitgey/face_recognition for more information.
 
 ## Usages
 
+run
+
 ### Input and output images and videos
 
 Input and output videos are Movie.mp4 and Characters_recognition.avi on the Box (https://utexas.app.box.com/folder/177206050234?s=558vqe2g22wz5dubw3t5lb4xnl3yn3c7), respectively. The input images are uploaded in the repository. If .avi file cannot be opened on macOS, please use MKPlayer for viewing. 
+
+
