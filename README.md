@@ -1,5 +1,6 @@
 # ME396P_Characters_recognition
-See https://github.com/ageitgey/face_recognition for more information
+See https://github.com/ageitgey/face_recognition for more information.
+
 Input and output videos are Movie.mp4 and Characters_recognition.avi on the Box, respectively. The input images are uploaded in the repository. If .avi file cannot be opened on macOS, please use MKPlayer for viewing. 
 ## Installation
 
