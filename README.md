@@ -9,7 +9,7 @@
   * OpenCV
   * face_recognition
 
-### face_recognition Installation:
+### face_recognition Installation
 
 #### Installing on Mac or Linux
 
