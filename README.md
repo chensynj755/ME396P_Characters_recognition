@@ -6,8 +6,10 @@ See https://github.com/ageitgey/face_recognition for more information
 
   * Python 3.3+ or Python 2.7
   * macOS or Linux (Windows not officially supported, but might work)
+  * OpenCV
+  * face_recognition
 
-### Installation Options:
+### face_recognition Installation:
 
 #### Installing on Mac or Linux
 
