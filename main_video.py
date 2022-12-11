@@ -23,7 +23,7 @@ wiki_link = {'Captain america':"https://en.wikipedia.org/wiki/Captain_America"
             ,'Black widow':"https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)"
             ,'Bruce':"https://en.wikipedia.org/wiki/Hulk"
             ,'Proxima':"https://en.wikipedia.org/wiki/Proxima_Midnight"
-            ,'Thor':"https://en.wikipedia.org/wiki/Thor_(Marvel_Comics) \n and Groot: https://www.me.utexas.edu/people/faculty-directory/pryor"}
+            ,'Thor':"https://en.wikipedia.org/wiki/Thor_(Marvel_Comics)"}
 
 # Set up GUI
 root = Toplevel()
@@ -73,7 +73,7 @@ l_img = ttk.Label(imageFrame)
 l_img.grid(column = 0, row = 0)
 
 # Load Camera 'Movie.mp4'
-cap = cv2.VideoCapture('Avengers.mp4')
+cap = cv2.VideoCapture('Movie.mp4')
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 cap.set(cv2.CAP_PROP_FRAME_WIDTH,width)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT,height)
@@ -94,8 +94,7 @@ def run():
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 200), 4)
                 print("Now is ",name+".")
                 if name in wiki_link:
-                    print("Here is the link:",wiki_link[name],'\n')
-
+                    print("Here is the link:",wiki_link[name])
     frameRGBA = cv2.cvtColor(frame, cv2.COLOR_BGR2RGBA)
     img = Image.fromarray(frameRGBA)
     imgtk = ImageTk.PhotoImage(image = img)
