@@ -1,5 +1,12 @@
 # ME396P_Characters_recognition
 
+## Objectives:
+Developing a media player that is able to identify the characters in a movie at any time and give us links for the detail of the characters being identified, shown below:
+<img width="1462" alt="image" src="https://user-images.githubusercontent.com/112068708/206894720-e0308475-9b49-463b-938c-e9bfa9e441fe.png">
+
+
+
+
 ## Installation
 
 ### Requirements
