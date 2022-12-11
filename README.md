@@ -46,8 +46,7 @@ See https://github.com/ageitgey/face_recognition for more information.
 * Download main_video.py and simple_facerec.py. 
 * Put all the character's pictures in a folder, and name the picture as the character’s name. 
 * Change the path in main_video.py to load images. 
-* Put the video you are going to play in your current working directory. 
-* Change the CV2 capture file name to the video’s name
+* Put the video you are going to play in your current working directory, and change the CV2 capture name to video’s name.
 * Run the main_video.py and click identify to recognize the character.
 
 
